@@ -19,5 +19,14 @@ public class Curso {
         return alunos;
     }
 
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public void setAlunos(int alunos) {
+		this.alunos = alunos;
+	}
+
+    
 }
 
